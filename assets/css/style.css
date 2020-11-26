@@ -1,0 +1,180 @@
+/*styling for all elements*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+/* styling for the body tag*/
+body {
+  background-color: #d9dcd6;
+}
+/*styling class name header*/
+.header {
+  padding: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  background-color: #2a607c;
+  color: #ffffff;
+}
+
+/* Styling for h1 tag inside the classname header*/
+.header h1 {
+  display: inline-block;
+  font-size: 48px;
+}
+/*styling for seo inside h1 and inside class name header*/
+.header h1 .seo {
+  color: #d9dcd6;
+}
+/* Styling for div tag inside the classname header*/
+.header div {
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+}
+/*styling for ul inside div and inside class name header*/
+.header div ul {
+  list-style-type: none;
+}
+/*styling for li inside div and inside class name header*/
+.header div ul li {
+  display: inline-block;
+  margin-left: 25px;
+}
+/* styling for tag a */
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+/* styling for tag p */
+p {
+  font-size: 16px;
+}
+/* styling for background img class name hero */
+.hero {
+  height: 800px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-image: url('../images/digital-marketing-meeting.jpg');
+  background-size: cover;
+  background-position: center;
+}
+/* styling for class name float- left*/
+.float-left {
+  float: left;
+  margin-right: 25px;
+}
+/* styling for class name float- right*/
+.float-right {
+  float: right;
+  margin-left: 25px;
+}
+/* styling for class name content */
+.content {
+  width: 75%;
+  display: inline-block;
+  margin-left: 20px;
+}
+/* styling for class name benetfits */
+.benefits {
+  margin-right: 20px;
+  padding: 20px;
+  clear: both;
+  float: right;
+  width: 20%;
+  height: 100%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #2589bd;
+}
+/* styling for class name  benefits- lend*/
+.benefit-lead {
+  margin-bottom: 32px;
+  color: #ffffff;
+}
+/* Styling for h3 tag inside the classname  benefit-lead*/
+.benefit-lead h3 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* Styling for img tag inside the classname  benefit-lead*/
+.benefit-lead img {
+  display: block;
+  margin: 10px auto;
+  max-width: 150px;
+}
+
+/* styling for class name benefit- brand*/
+.benefit-brand {
+  margin-bottom: 32px;
+  color: #ffffff;
+}
+/* Styling for h3 tag inside the classname  benefit-brand*/
+.benefit-brand h3 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* Styling for img tag inside the classname  benefit-brand*/
+.benefit-brand img {
+  display: block;
+  margin: 10px auto;
+  max-width: 150px;
+}
+
+/* styling for class name  benefi- cost*/
+.benefit-cost {
+  margin-bottom: 32px;
+  color: #ffffff;
+}
+
+/* Styling for h3 tag inside the classname  benefit-cost*/
+.benefit-cost h3 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* Styling for img tag inside the classname  benefit-cost*/
+.benefit-cost img {
+  display: block;
+  margin: 10px auto;
+  max-width: 150px;
+}
+
+/* MODIFIED */
+/* Combined the styles of 3 classes into a single class */
+/* Styling for the classname main-section */
+.main-section {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #0072bb;
+  color: #ffffff;
+}
+/* styling for img class name .main-section  */
+.main-section img {
+  max-height: 200px;
+}
+
+/* Styling for h2 tag inside the classname main-section*/
+.main-section h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+/* Styling for the classname footer*/
+.footer {
+  padding: 30px;
+  clear: both;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+}
+
+/* Styling for h2 tag the classname footer*/
+.footer h2 {
+  font-size: 20px;
+}
